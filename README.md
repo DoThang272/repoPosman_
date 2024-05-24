@@ -22,7 +22,31 @@ Trong tab mới
 Trong tab Body
     Click chọn raw
     Select JSON
-Copy và paste chỉ một user từ kết quả request trước như bên dưới. Đảm bảo rằng mã đã được sao chép chính xác với các dấu đóng mở. Thay đổi id thành 11 và đặt name bất kỳ tên nào bạn muốn. Bạn cũng có thể thay đổi các trường khác như address.
+    Dán phần 
+        {
+            "id": 11,
+            "name": "Krishna Rungta",
+            "username": "Bret",
+            "email": "Sincere@april.biz",
+            "address": {
+                "street": "Kulas Light",
+                "suite": "Apt. 556",
+                "city": "Gwenborough",
+                "zipcode": "92998-3874",
+                "geo": {
+                    "lat": "-37.3159",
+                    "lng": "81.1496"
+                }
+            },
+            "phone": "1-770-736-8031 x56442",
+            "website": "hildegard.org",
+            "company": {
+                "name": "Romaguera-Crona",
+                "catchPhrase": "Multi-layered client-server neural-net",
+                "bs": "harness real-time e-markets"
+            }
+        }
+    Lưu ý phải đúng định dạng json và đúng các tên trường 
 Kích nút Send
     Status: 201 Created được hiển thị
     Dữ liệu Post được hiển thị trong tab Body
